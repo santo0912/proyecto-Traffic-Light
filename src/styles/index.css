@@ -10,3 +10,46 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.caja {
+    width: 150px;
+    height: 300px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+  }
+  
+  .circulo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  .rojo {
+    
+    background-color: red;
+  }
+  
+  .amarillo {
+    
+    background-color: yellow;
+  }
+  
+  .verde {
+    
+    background-color: green;
+  }
+
+  .glow {
+    box-shadow: 10px 10px 75px 23px rgba(230,230,58,0.75);
+  }
+
+  .ligth{
+    width: 110px;
+    height: 150px;
+    cursor: pointer;
+    opacity: 0.4;
+  }
